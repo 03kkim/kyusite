@@ -7,15 +7,17 @@ const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
-    <div className="font-open-sans font-light bg-background h-screen">
-      <div className="py-10 pl-10">
-        <h1 className="text-6xl">Kyu Hong Kim</h1>
-      </div>
-      <div className="pl-10 flex-col space-y-5 text-4xl">
-        <h2>Bio</h2>
-        <h2>Dev</h2>
-        <h2>Music</h2>
-        <h2>Contact</h2>
+    <div className="font-open-sans font-light bg-gradient-to-b from-background to-white h-screen">
+      <div className="flow-root">
+        <div className="py-10 pl-10 float-left">
+          <h1 className="text-6xl">Kyu Hong Kim</h1>
+        </div>
+        <div className="py-10 pr-10 space-x-5 text-4xl float-right">
+          <h2 className="inline-block">Bio</h2>
+          <h2 className="inline-block">Dev</h2>
+          <h2 className="inline-block">Music</h2>
+          <h2 className="inline-block">Contact</h2>
+        </div>
       </div>
     </div>
   );
