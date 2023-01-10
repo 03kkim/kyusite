@@ -12,7 +12,7 @@ export default function Home() {
         <div className="py-10 pl-10 float-left">
           <h1 className="text-6xl">Kyu Hong Kim</h1>
         </div>
-        <div className="py-10 pr-10 space-x-5 text-4xl float-right">
+        <div className="py-10 pr-10 space-x-10 text-4xl float-right">
           <h2 className="inline-block">Bio</h2>
           <h2 className="inline-block">Dev</h2>
           <h2 className="inline-block">Music</h2>
