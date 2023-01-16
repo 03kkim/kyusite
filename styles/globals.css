@@ -2,3 +2,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .bg {
+    @apply font-open-sans font-light bg-gradient-to-b from-background to-white h-screen p-10;
+  }
+}
