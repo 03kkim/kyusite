@@ -1,4 +1,6 @@
 import Header from "../components/Header";
+import { InstagramEmbed } from "react-social-media-embed";
+
 export default function Music() {
   return (
     <div className="bg">
@@ -46,8 +48,21 @@ export default function Music() {
         <div className="pl-10 pb-10 text-[24px]">
           What started as an outlet to show my friends my random piano ideas and
           improvs ended up turning into a fulfilling way for me to start
-          releasing more serious projects and recordings. Here’s the work I’m
-          most proud of:
+          releasing more serious projects. Here's some of my favorites!
+        </div>
+        <div className="grid grid-cols-3 place-items-center pt-5">
+          <InstagramEmbed
+            url="https://www.instagram.com/p/ChST0VKFMZe/"
+            // width={328}
+          />
+          <InstagramEmbed
+            url="https://www.instagram.com/p/Cg1_HWSl9hK/"
+            // width={328}
+          />
+          <InstagramEmbed
+            url="https://www.instagram.com/p/CivHPEVsHxY/"
+            // width={328}
+          />
         </div>
       </main>
     </div>
