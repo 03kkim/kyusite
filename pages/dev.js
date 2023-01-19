@@ -16,6 +16,10 @@ export default function Dev() {
       <Header />
       <main className="main">
         <div className="text-[40px] text-center ">Coding Projects</div>
+        <div className="text-[24px] text-center px-44">
+          Although my classes have required me to learn C++, Kotlin, and Rust,
+          I've mostly stuck with using JS in my passion projects.
+        </div>
         <div className="py-10 text-[32px]">Works in Progress</div>
         <div className="grid grid-rows-1 grid-cols-2 justify-items-center">
           <Image

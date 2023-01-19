@@ -7,7 +7,7 @@ export default function Music() {
       <Header />
       <main className="main">
         <div className="text-[40px] text-center ">Music Projects</div>
-        <div className="text-[32px] text-center">
+        <div className="text-[24px] text-center px-44">
           I dedicate a lot of my free time to making music, both live and
           produced!
         </div>
@@ -49,20 +49,11 @@ export default function Music() {
           What started as an outlet to show my friends my random piano ideas and
           improvs ended up turning into a fulfilling way for me to start
           releasing more serious projects. Here's some of my favorites!
-        </div>
-        <div className="grid grid-cols-3 place-items-center pt-5">
-          <InstagramEmbed
-            url="https://www.instagram.com/p/ChST0VKFMZe/"
-            // width={328}
-          />
-          <InstagramEmbed
-            url="https://www.instagram.com/p/Cg1_HWSl9hK/"
-            // width={328}
-          />
-          <InstagramEmbed
-            url="https://www.instagram.com/p/CivHPEVsHxY/"
-            // width={328}
-          />
+          <div className="grid grid-cols-3 place-items-center pt-5">
+            <InstagramEmbed url="https://www.instagram.com/p/ChST0VKFMZe/" />
+            <InstagramEmbed url="https://www.instagram.com/p/Cg1_HWSl9hK/" />
+            <InstagramEmbed url="https://www.instagram.com/p/CivHPEVsHxY/" />
+          </div>
         </div>
       </main>
     </div>
