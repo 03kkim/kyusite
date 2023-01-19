@@ -7,6 +7,9 @@
   .bg {
     @apply font-open-sans font-light bg-gradient-to-b from-background to-white h-screen pt-10 px-10;
   }
+  .main {
+    @apply px-60 py-10;
+  }
 }
 
 @layer utilities {
