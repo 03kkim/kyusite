@@ -13,7 +13,7 @@ function Header() {
   };
   return (
     <div className="flow-root">
-      <div className="float-left">
+      <div className="md:float-left text-center">
         {/* <motion.div
           initial={initial}
           animate={animate}
@@ -27,7 +27,7 @@ function Header() {
         </Link>
         {/* </motion.div> */}
       </div>
-      <div className="space-x-10 text-[40px] float-right">
+      <div className="space-x-10 text-[40px] md:float-right text-center">
         <Link href="/dev">
           <h2 className="inline-block hover:text-white cursor-pointer">Dev</h2>
         </Link>

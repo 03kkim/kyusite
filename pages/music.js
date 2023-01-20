@@ -7,7 +7,7 @@ export default function Music() {
       <Header />
       <main className="main">
         <div className="text-[40px] text-center ">Music Projects</div>
-        <div className="text-[24px] text-center px-44">
+        <div className="text-[24px] text-center 2xl:px-44">
           I dedicate a lot of my free time to making music, both live and
           produced!
         </div>
@@ -41,15 +41,15 @@ export default function Music() {
         <div className="pl-10 pb-10 text-[24px]">
           The one drawback with music production is that there’s typically
           little interaction between the musician and audience. As part of
-          Improvisers Exchange, an ensemble centered around improvised music,
-          I’m able to keep my spirit of live music making alive!
+          Improvisers Exchange I'm able to enjoy making music together with
+          others in a live, improvised setting.
         </div>
         <div className="pt-10 text-[32px]">@kvu.sic (Instagram)</div>
         <div className="pl-10 pb-10 text-[24px]">
           What started as an outlet to show my friends my random piano ideas and
           improvs ended up turning into a fulfilling way for me to start
           releasing more serious projects. Here's some of my favorites!
-          <div className="grid grid-cols-3 place-items-center pt-5">
+          <div className="grid devbreak:grid-cols-3 cols-1 place-items-center pt-5">
             <InstagramEmbed url="https://www.instagram.com/p/ChST0VKFMZe/" />
             <InstagramEmbed url="https://www.instagram.com/p/Cg1_HWSl9hK/" />
             <InstagramEmbed url="https://www.instagram.com/p/CivHPEVsHxY/" />
