@@ -36,6 +36,11 @@ function Header() {
             Music
           </h2>
         </Link>
+        <Link href="/about">
+          <h2 className="inline-block hover:text-white cursor-pointer">
+            About
+          </h2>
+        </Link>
       </div>
     </div>
   );
