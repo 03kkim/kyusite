@@ -25,7 +25,7 @@ module.exports = {
     },
     extend: {
       colors: {
-        background: "#E0E0E2",
+        background: "#FCFAF3",
       },
     },
   },

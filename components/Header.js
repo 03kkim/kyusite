@@ -21,8 +21,8 @@ function Header() {
           transition={transition}
         > */}
         <Link href="/">
-          <h1 className="text-[64px] hover:scale-95 cursor-pointer transition transform duration-200 ease-in-out">
-            <div className="transition hover:text-white transform duration-200 ease-in-out">
+          <h1 className="text-[64px] hover:scale-95 cursor-pointer transition transform duration-200 ease-in-out text-shadow">
+            <div className="transition hover:text-neutral-500 transform duration-200 ease-in-out">
               Kyu Hong Kim
             </div>
           </h1>
@@ -31,22 +31,22 @@ function Header() {
       </div>
       <div className="space-x-10 text-[40px] md:float-right text-center">
         <Link href="/dev">
-          <h2 className="inline-block hover:scale-95 cursor-pointer transition transform duration-100 ease-in-out">
-            <div className="transition hover:text-white transform duration-100 ease-in-out">
+          <h2 className="inline-block hover:scale-95 cursor-pointer transition transform duration-100 ease-in-out text-shadow">
+            <div className="transition hover:text-neutral-500 transform duration-100 ease-in-out">
               Dev
             </div>
           </h2>
         </Link>
         <Link href="/music">
-          <h2 className="inline-block hover:scale-95 cursor-pointer transition transform duration-100 ease-in-out">
-            <div className="transition hover:text-white transform duration-100 ease-in-out">
+          <h2 className="inline-block hover:scale-95 cursor-pointer transition transform duration-100 ease-in-out text-shadow">
+            <div className="transition hover:text-neutral-500 transform duration-100 ease-in-out">
               Music
             </div>
           </h2>
         </Link>
         <Link href="/about">
-          <h2 className="inline-block hover:scale-95 cursor-pointer transition transform duration-100 ease-in-out">
-            <div className="transition hover:text-white transform duration-100 ease-in-out">
+          <h2 className="inline-block hover:scale-95 cursor-pointer transition transform duration-100 ease-in-out text-shadow">
+            <div className="transition hover:text-neutral-500 transform duration-100 ease-in-out">
               About
             </div>
           </h2>

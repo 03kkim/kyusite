@@ -7,6 +7,11 @@
   .bg {
     @apply font-open-sans font-light bg-gradient-to-t from-background to-white h-full px-5 pt-5 md:px-10 md:pt-10;
   }
+
+  .bg-alt {
+    @apply font-open-sans font-light bg-background h-full px-5 pt-5 md:px-10 md:pt-10;
+  }
+
   .main {
     @apply sm:px-8 md:px-24 xl:px-60 py-10;
   }
@@ -20,5 +25,23 @@
 @layer base {
   html {
     @apply text-gray-800;
+  }
+}
+
+@responsive {
+  .text-shadow {
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .text-shadow-md {
+    text-shadow: 0 4px 8px rgba(0, 0, 0, 0.12), 0 2px 4px rgba(0, 0, 0, 0.08);
+  }
+
+  .text-shadow-lg {
+    text-shadow: 0 15px 30px rgba(0, 0, 0, 0.11), 0 5px 15px rgba(0, 0, 0, 0.08);
+  }
+
+  .text-shadow-none {
+    text-shadow: none;
   }
 }
