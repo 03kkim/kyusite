@@ -48,7 +48,7 @@ export default function Music() {
         <div className="pl-10 pb-10 text-[24px]">
           What started as an outlet to show my friends my random piano ideas and
           improvs ended up turning into a fulfilling way for me to start
-          releasing more serious projects. Here's some of my favorites!
+          releasing more serious projects. Here are some of my favorites!
           <div className="grid devbreak:grid-cols-3 cols-1 place-items-center pt-5">
             <InstagramEmbed url="https://www.instagram.com/p/ChST0VKFMZe/" />
             <InstagramEmbed url="https://www.instagram.com/p/Cg1_HWSl9hK/" />

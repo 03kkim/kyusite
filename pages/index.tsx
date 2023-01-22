@@ -11,7 +11,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
-    <div className="bg flex flex-col justify-between">
+    <div className="bg flex flex-col justify-between h-screen">
       <Header />
       <div className="m-auto">
         <div className="grid grid-cols-1 grid-rows-2 gap-4 justify-items-center">
@@ -29,7 +29,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }

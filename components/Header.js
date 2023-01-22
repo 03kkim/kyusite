@@ -21,24 +21,34 @@ function Header() {
           transition={transition}
         > */}
         <Link href="/">
-          <h1 className="text-[64px] hover:text-white cursor-pointer">
-            Kyu Hong Kim
+          <h1 className="text-[64px] hover:scale-95 cursor-pointer transition transform duration-200 ease-in-out">
+            <div className="transition hover:text-white transform duration-200 ease-in-out">
+              Kyu Hong Kim
+            </div>
           </h1>
         </Link>
         {/* </motion.div> */}
       </div>
       <div className="space-x-10 text-[40px] md:float-right text-center">
         <Link href="/dev">
-          <h2 className="inline-block hover:text-white cursor-pointer">Dev</h2>
+          <h2 className="inline-block hover:scale-95 cursor-pointer transition transform duration-100 ease-in-out">
+            <div className="transition hover:text-white transform duration-100 ease-in-out">
+              Dev
+            </div>
+          </h2>
         </Link>
         <Link href="/music">
-          <h2 className="inline-block hover:text-white cursor-pointer">
-            Music
+          <h2 className="inline-block hover:scale-95 cursor-pointer transition transform duration-100 ease-in-out">
+            <div className="transition hover:text-white transform duration-100 ease-in-out">
+              Music
+            </div>
           </h2>
         </Link>
         <Link href="/about">
-          <h2 className="inline-block hover:text-white cursor-pointer">
-            About
+          <h2 className="inline-block hover:scale-95 cursor-pointer transition transform duration-100 ease-in-out">
+            <div className="transition hover:text-white transform duration-100 ease-in-out">
+              About
+            </div>
           </h2>
         </Link>
       </div>

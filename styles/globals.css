@@ -5,7 +5,7 @@
 
 @layer components {
   .bg {
-    @apply font-open-sans font-light bg-gradient-to-b from-background to-white h-screen px-5 pt-5 md:px-10 md:pt-10;
+    @apply font-open-sans font-light bg-gradient-to-t from-background to-white h-full px-5 pt-5 md:px-10 md:pt-10;
   }
   .main {
     @apply sm:px-8 md:px-24 xl:px-60 py-10;
@@ -15,5 +15,10 @@
 @layer utilities {
   .clip-circle {
     clip-path: circle(45% at center);
+  }
+}
+@layer base {
+  html {
+    @apply text-gray-800;
   }
 }
