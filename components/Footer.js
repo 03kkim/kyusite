@@ -12,11 +12,11 @@ function Footer() {
       <a
         className="text-lg"
         target="_blank"
-        href="https://www.linkedin.com/in/kyu-hong-kim-8b5991218/"
+        href="https://www.linkedin.com/in/kyu-hong-kim-8b5991218/" rel="noreferrer"
       >
         LinkedIn
       </a>
-      <a className="text-lg" target="_blank" href="https://github.com/03kkim">
+      <a className="text-lg" target="_blank" href="https://github.com/03kkim" rel="noreferrer">
         Github
       </a>
     </div>

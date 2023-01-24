@@ -8,7 +8,7 @@ function About() {
         <div className="text-[40px] text-center">About Me</div>
         <div className="text-[24px] pb-10">
           <p className="text-center">
-            Hi, I’m Kyu! I’m a web developer, music producer, and student at
+            Hi, I`&apos;`m Kyu! I`&apos;`m a web developer, music producer, and student at
             UIUC majoring in CS + Music.
           </p>
         </div>
@@ -20,18 +20,18 @@ function About() {
           received my laptop in 4th grade, and downloaded my first bloatware on
           it soon after. I remember not only the frustration from how slowly my
           computer had started to run, but also how oddly captivating it was to
-          research and learn about what could be causing it. Since then, I've
+          research and learn about what could be causing it. Since then, I`&apos;`ve
           been attached to computers at the hip. Weird origin story, right?
         </p>
         <div className="text-[32px]">Music</div>
         <p className="pl-10 pb-10 text-[24px]">
-          I've been playing piano since I was 7, but it wasn't until I was 13,
+          I`&apos;`ve been playing piano since I was 7, but it wasn`&apos;`t until I was 13,
           when I started playing jazz, that I started making music the way I
           wanted. Entering college, I decided to give electronic music
           production a shot in order to broaden my sonic palette and to be able
           to record and release my own music. While it was frustrating to have
-          to start as a beginner for the 3rd time, seeing where my curiosity's
-          brought me today, I don't regret my journey one bit.
+          to start as a beginner for the 3rd time, seeing where my curiosity`&apos;`s
+          brought me today, I don`&apos;`t regret my journey one bit.
         </p>
         {/* Make this a blog post or smth idk */}
         {/* <div className="text-[32px]">Computers and Music</div>
