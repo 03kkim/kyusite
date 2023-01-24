@@ -59,14 +59,14 @@ function About() {
           <a
             className="text-[24px]"
             target="_blank"
-            href="https://www.linkedin.com/in/kyu-hong-kim-8b5991218/"
+            href="https://www.linkedin.com/in/kyu-hong-kim-8b5991218/" rel="noreferrer"
           >
             LinkedIn
           </a>
           <a
             className="text-[24px]"
             target="_blank"
-            href="https://github.com/03kkim"
+            href="https://github.com/03kkim" rel="noreferrer"
           >
             Github
           </a>
