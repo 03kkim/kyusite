@@ -18,7 +18,7 @@ export default function Dev() {
         <div className="text-[40px] text-center ">Coding Projects</div>
         <div className="text-[24px] text-center 2xl:px-44">
           Although my classes have required me to learn C++, Kotlin, and Rust,
-          I`&apos;`ve mostly stuck with using JS in my personal projects.
+          I&apos;ve mostly stuck with using JS in my personal projects.
         </div>
         <div className="py-10 text-[32px] text-center devbreak:text-left">
           Works in Progress
@@ -36,7 +36,7 @@ export default function Dev() {
             </a>
             <div className="text-[24px] w-[565px]">
               <b>03kkim/spotify-capsule</b> - A Spotify time capsule generator
-              I`&apos;`m making with Micah Casey-Fusco. Spotify actually released
+              I&apos;m making with Micah Casey-Fusco. Spotify actually released
               something similar (albeit not as cool 😎) after we started on the
               project!
               <br />
@@ -81,7 +81,7 @@ export default function Dev() {
             <div className="text-[24px] w-[565px]">
               <b>03kkim/polyrthm</b> - A polyrhythm generator. Polyrhythms are
               two or more rhythms being played at the same time with different
-              frequencies. While they sound cool, they`&apos;`re notoriously difficult
+              frequencies. While they sound cool, they&apos;re notoriously difficult
               to play, so I made this to help myself (and others) practice!{" "}
               <br />
               <i className="text-[18px]">ReactJS, BulmaCSS, Tone.js</i>
@@ -100,7 +100,7 @@ export default function Dev() {
               />
             </a>
             <div className="text-[24px] w-[565px]">
-              <b>03kkim/rustseagull </b> - A Conway`&apos;`s Game of Life
+              <b>03kkim/rustseagull </b> - A Conway&apos;s Game of Life
               implementation in Rust, which also generates sounds based on the
               board state! A collaboration project with Lily Zhang and Abena
               Laast.

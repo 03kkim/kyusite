@@ -39,9 +39,9 @@ export default function Music() {
 
         <div className="pt-10 text-[32px]">Improvisers Exchange</div>
         <div className="pl-10 pb-10 text-[24px]">
-          The one drawback with music production is that there`&apos;`s typically
+          The one drawback with music production is that there&apos;s typically
           little interaction between the musician and audience. As part of
-          Improvisers Exchange I`&apos;`m able to enjoy making music together with
+          Improvisers Exchange I&apos;m able to enjoy making music together with
           others in a live, improvised setting.
         </div>
         <div className="pt-10 text-[32px]">@kvu.sic (Instagram)</div>

@@ -6,32 +6,68 @@ function About() {
       <Header />
       <main className="main">
         <div className="text-[40px] text-center">About Me</div>
-        <div className="text-[24px] pb-10">
+        <div className="text-[24px] pb-5">
           <p className="text-center">
-            Hi, I`&apos;`m Kyu! I`&apos;`m a web developer, music producer, and student at
-            UIUC majoring in CS + Music.
+            Hi, I&apos;m Kyu! I&apos;m a web developer, music producer, and
+            student at UIUC majoring in CS + Music.
+            <br />
+            Feel free to contact me using the following links:
           </p>
+        </div>
+        <div className="grid gap-4 grid-cols-3 grid-rows-1 pb-5 justify-items-center">
+          <div
+            onClick={() => {
+              navigator.clipboard.writeText("03kkim@gmail.com");
+            }}
+            className="text-[24px] cursor-pointer"
+          >
+            Email
+          </div>
+          <a
+            className="text-[24px]"
+            target="_blank"
+            href="https://www.linkedin.com/in/kyu-hong-kim-8b5991218/"
+            rel="noreferrer"
+          >
+            LinkedIn
+          </a>
+          <a
+            className="text-[24px]"
+            target="_blank"
+            href="https://github.com/03kkim"
+            rel="noreferrer"
+          >
+            Github
+          </a>
         </div>
         <div className="text-[32px]">Computers</div>
         <p className="pl-10 pb-10 text-[24px]">
-          I particularly enjoy JS and web dev because I like the flexibility and
-          accessibility it offers compared to standalone programs. I also find
-          the process that goes into software development interesting. I
-          received my laptop in 4th grade, and downloaded my first bloatware on
-          it soon after. I remember not only the frustration from how slowly my
-          computer had started to run, but also how oddly captivating it was to
-          research and learn about what could be causing it. Since then, I`&apos;`ve
-          been attached to computers at the hip. Weird origin story, right?
+          I enjoy creating frontend web apps using technologies like Next,
+          React, and Tailwind for my personal projects for the flexibility and
+          accessibility it offers compared to standalone programs, but I&apos;m
+          also somewhat familiar with backend tech like Django, PHP (albeit
+          rusty) and SQL. In fact, at my internship this semester, I get to work
+          with large datasets and improve my skill in that area!
+          <br />
+          <br />
+          Fun story: I received my first laptop in 4th grade, and being a 4th
+          grader, ended up with a **** ton of bloatware and adware on the
+          machine. Being an internet child, I instinctually started Googling
+          what could be causing my computer to be acting up. One question led to
+          a next, and before I knew it, I&apos;d gotten to know way to much
+          about computers. A bit of a weird origin story, I&apos;ll admit, but I
+          think it&apos;s also poetically relatable to software development.
         </p>
         <div className="text-[32px]">Music</div>
         <p className="pl-10 pb-10 text-[24px]">
-          I`&apos;`ve been playing piano since I was 7, but it wasn`&apos;`t until I was 13,
-          when I started playing jazz, that I started making music the way I
-          wanted. Entering college, I decided to give electronic music
+          I&apos;ve been playing piano since I was 7, but it wasn&apos;t until I
+          was 13, when I started playing jazz, that I started making music the
+          way I wanted. Entering college, I decided to give electronic music
           production a shot in order to broaden my sonic palette and to be able
           to record and release my own music. While it was frustrating to have
-          to start as a beginner for the 3rd time, seeing where my curiosity`&apos;`s
-          brought me today, I don`&apos;`t regret my journey one bit.
+          to start as a beginner for the 3rd time, seeing where my
+          curiosity&apos;s brought me today, I don&apos;t regret my journey one
+          bit.
         </p>
         {/* Make this a blog post or smth idk */}
         {/* <div className="text-[32px]">Computers and Music</div>
@@ -46,31 +82,6 @@ function About() {
           music (and vice versa!). I hope my passion for creating reaches you
           through my work, and thanks for checking out my site!
         </p> */}
-        <div className="text-[40px] text-center">Contact</div>
-        <div className="grid gap-4 grid-cols-3 grid-rows-1 py-5 justify-items-center">
-          <div
-            onClick={() => {
-              navigator.clipboard.writeText("03kkim@gmail.com");
-            }}
-            className="text-[24px] cursor-pointer"
-          >
-            Email
-          </div>
-          <a
-            className="text-[24px]"
-            target="_blank"
-            href="https://www.linkedin.com/in/kyu-hong-kim-8b5991218/" rel="noreferrer"
-          >
-            LinkedIn
-          </a>
-          <a
-            className="text-[24px]"
-            target="_blank"
-            href="https://github.com/03kkim" rel="noreferrer"
-          >
-            Github
-          </a>
-        </div>
       </main>
     </div>
   );
