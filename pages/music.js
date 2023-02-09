@@ -7,6 +7,9 @@ export default function Music() {
       <Header />
       <main className="main">
         <div className="text-[40px] text-center ">Music Projects</div>
+        <div className="text-[28px] text-red-600 sm:h-0 visible sm:invisible text-center">
+          <b>Please turn your phone to landscape to view this page</b>
+        </div>
         <div className="text-[24px] text-center 2xl:px-44">
           I dedicate a lot of my free time to making music, both live and
           produced!

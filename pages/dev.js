@@ -15,8 +15,13 @@ export default function Dev() {
     <div className="bg h-full">
       <Header />
       <main className="main">
-        <div className="text-[40px] text-center ">Coding Projects</div>
-        <div className="text-[24px] text-center 2xl:px-44">
+        <div className="text-[28px] sm:text-[32px] md:text-[40px] text-center ">
+          Coding Projects
+        </div>
+        <div className="text-[28px] text-red-600 sm:h-0 visible sm:invisible text-center">
+          <b>Please turn your phone to landscape to view this page</b>
+        </div>
+        <div className="text-[20px] sm:text-[22px] md:text-[24px] text-center 2xl:px-44">
           Although my classes have required me to learn C++, Kotlin, and Rust,
           I&apos;ve mostly stuck with using JS in my personal projects.
         </div>

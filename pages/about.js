@@ -2,7 +2,7 @@ import Header from "../components/Header";
 
 function About() {
   return (
-    <div className="bg h-screen">
+    <div className="bg h-full">
       <Header />
       <main className="main">
         <div className="text-[40px] text-center">About Me</div>
