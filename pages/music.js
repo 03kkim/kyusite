@@ -3,7 +3,7 @@ import { InstagramEmbed } from "react-social-media-embed";
 
 export default function Music() {
   return (
-    <div className="bg">
+    <div className="bg h-full">
       <Header />
       <main className="main">
         <div className="text-[40px] text-center ">Music Projects</div>

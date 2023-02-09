@@ -2,7 +2,7 @@ import Header from "../components/Header";
 
 function About() {
   return (
-    <div className="bg">
+    <div className="bg h-screen">
       <Header />
       <main className="main">
         <div className="text-[40px] text-center">About Me</div>
@@ -44,19 +44,19 @@ function About() {
         <p className="pl-10 pb-10 text-[24px]">
           I enjoy creating frontend web apps using technologies like Next,
           React, and Tailwind for my personal projects for the flexibility and
-          accessibility it offers compared to standalone programs, but I&apos;m
-          also somewhat familiar with backend tech like Django, PHP (albeit
-          rusty) and SQL. In fact, at my internship this semester, I get to work
-          with large datasets and improve my skill in that area!
-          <br />
-          <br />
+          accessibility it offers compared to standalone programs, but I&apos;ve
+          also used Django, PHP and SQL to handle backend and DBs. At my
+          internship this spring, I get to work with large datasets and continue
+          building on my data skills!
+          {/* <br /> */}
+          {/* <br />
           Fun story: I received my first laptop in 4th grade, and being a 4th
           grader, ended up with a ton of bloatware and adware. I started
           Googling what could be causing my computer to be acting up, and one
           question led to the next. Before I knew it, I&apos;d gotten to know
           way to much about computers. A bit of a weird origin story, I&apos;ll
           admit, but I think it&apos;s also poetically relatable to software
-          development.
+          development. */}
         </p>
         <div className="text-[32px]">Music</div>
         <p className="pl-10 pb-10 text-[24px]">
@@ -81,6 +81,7 @@ function About() {
           enjoy creating software for a lot of the same reasons I love making
           music (and vice versa!). I hope my passion for creating reaches you
           through my work, and thanks for checking out my site!
+         
         </p> */}
       </main>
     </div>

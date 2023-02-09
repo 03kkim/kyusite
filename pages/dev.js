@@ -12,7 +12,7 @@ import Header from "../components/Header";
 
 export default function Dev() {
   return (
-    <div className="bg">
+    <div className="bg h-full">
       <Header />
       <main className="main">
         <div className="text-[40px] text-center ">Coding Projects</div>
@@ -25,7 +25,11 @@ export default function Dev() {
         </div>
         <div className="grid grid-rows-2 grid-cols-1 devbreak:grid-rows-1 devbreak:grid-cols-2 justify-items-center">
           <div className="pb-10 devbreak:p-0">
-            <a target="_blank" href="https://github.com/03kkim/spotify-capsule" rel="noreferrer">
+            <a
+              target="_blank"
+              href="https://github.com/03kkim/spotify-capsule"
+              rel="noreferrer"
+            >
               <Image
                 className="drop-shadow-lg hover:drop-shadow-2xl cursor-pointer transition duration-100"
                 src={encapsulateThumb}
@@ -46,7 +50,11 @@ export default function Dev() {
             </div>
           </div>
           <div>
-            <a target="_blank" href="https://github.com/03kkim/spotify-capsule" rel="noreferrer">
+            <a
+              target="_blank"
+              href="https://github.com/03kkim/spotify-capsule"
+              rel="noreferrer"
+            >
               <Image
                 className="drop-shadow-lg hover:drop-shadow-2xl cursor-pointer transition duration-100"
                 src={kyusiteThumb}
@@ -69,7 +77,11 @@ export default function Dev() {
         </div>
         <div className="grid grid-rows-2 grid-cols-1 devbreak:grid-rows-1 devbreak:grid-cols-2 justify-items-center">
           <div className="pb-10 devbreak:p-0">
-            <a target="_blank" href="https://github.com/03kkim/polyrthm" rel="noreferrer">
+            <a
+              target="_blank"
+              href="https://github.com/03kkim/polyrthm"
+              rel="noreferrer"
+            >
               <Image
                 className="drop-shadow-lg hover:drop-shadow-2xl cursor-pointer transition duration-100"
                 src={polyrthmThumb}
@@ -81,15 +93,19 @@ export default function Dev() {
             <div className="text-[24px] w-[565px]">
               <b>03kkim/polyrthm</b> - A polyrhythm generator. Polyrhythms are
               two or more rhythms being played at the same time with different
-              frequencies. While they sound cool, they&apos;re notoriously difficult
-              to play, so I made this to help myself (and others) practice!{" "}
-              <br />
+              frequencies. While they sound cool, they&apos;re notoriously
+              difficult to play, so I made this to help myself (and others)
+              practice! <br />
               <i className="text-[18px]">ReactJS, BulmaCSS, Tone.js</i>
             </div>
           </div>
 
           <div>
-            <a target="_blank" href="https://github.com/03kkim/rustseagull" rel="noreferrer">
+            <a
+              target="_blank"
+              href="https://github.com/03kkim/rustseagull"
+              rel="noreferrer"
+            >
               <Image
                 className="drop-shadow-lg hover:drop-shadow-2xl cursor-pointer transition duration-100"
                 src={rustseagullThumb}
