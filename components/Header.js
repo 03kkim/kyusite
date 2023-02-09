@@ -21,7 +21,7 @@ function Header() {
           transition={transition}
         > */}
         <Link href="/">
-          <h1 className="text-[64px] hover:scale-95 cursor-pointer transition transform duration-200 ease-in-out text-shadow">
+          <h1 className=" text-[32px] sm:text-[64px] hover:scale-95 cursor-pointer transition transform duration-200 ease-in-out text-shadow">
             <div className="transition hover:text-neutral-500 transform duration-200 ease-in-out">
               Kyu Hong Kim
             </div>
@@ -29,7 +29,7 @@ function Header() {
         </Link>
         {/* </motion.div> */}
       </div>
-      <div className="space-x-10 text-[40px] md:float-right text-center">
+      <div className="space-x-10 text-[26px] sm:text-[40px] md:float-right text-center">
         <Link href="/dev">
           <h2 className="inline-block hover:scale-95 cursor-pointer transition transform duration-100 ease-in-out text-shadow">
             <div className="transition hover:text-neutral-500 transform duration-100 ease-in-out">
