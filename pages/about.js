@@ -60,14 +60,13 @@ function About() {
         </p>
         <div className="text-[32px]">Music</div>
         <p className="pl-10 pb-10 text-[24px]">
-          I&apos;ve been playing piano since I was 7, but it wasn&apos;t until I
-          was 13, when I started playing jazz, that I started making music the
-          way I wanted. Entering college, I decided to give electronic music
-          production a shot in order to broaden my sonic palette and to be able
-          to record and release my own music. While it was frustrating to have
-          to start as a beginner for the 3rd time, seeing where my
-          curiosity&apos;s brought me today, I don&apos;t regret my journey one
-          bit.
+          I first started playing music at 7, with classical piano. However, it
+          wasn&apos;t until I was 13, when I started playing jazz, that I
+          started making my own music. Entering college, I decided to give
+          electronic music production a shot in order to broaden my sonic
+          palette and to be able to record and release my own music. While it
+          was difficult to start as a beginner in music for the 3rd time,
+          it&apos;s been a rewarding experience.
         </p>
         {/* Make this a blog post or smth idk */}
         {/* <div className="text-[32px]">Computers and Music</div>

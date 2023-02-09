@@ -14,13 +14,20 @@ export default function Home() {
     <div className="bg justify-between">
       <Header />
 
-      <div className="grid grid-cols-1 grid-rows-2 gap-0 place-content-center justify-items-center h-screen w-screen">
+      <div className="grid grid-cols-1 grid-rows-2 gap-0 place-content-center justify-items-center h-screen">
         {/* <div className="drop-shadow-2xl"> */}
-        <Image
-          className=" justify-center mt-10 px-5 clip-circle"
+        {/* <Image
+          className="invisible xs:visible justify-center mt-10 px-5 clip-circle"
           src={profilePic}
           // width={565}
           height={380}
+          alt="kyusite thumbnail"
+        /> */}
+        <Image
+          className="visible xs:invisible  justify-content-center mt-10 px-5 clip-circle"
+          src={profilePic}
+          // width={565}
+          height={360}
           alt="kyusite thumbnail"
         />
         {/* </div> */}
