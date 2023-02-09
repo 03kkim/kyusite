@@ -5,7 +5,7 @@ import styles from "../styles/Home.module.css";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 
-import profilePic from "../resources/pfp.jpeg";
+import profilePic from "../resources/pfp.png";
 
 const inter = Inter({ subsets: ["latin"] });
 

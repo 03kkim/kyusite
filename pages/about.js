@@ -51,12 +51,12 @@ function About() {
           <br />
           <br />
           Fun story: I received my first laptop in 4th grade, and being a 4th
-          grader, ended up with a **** ton of bloatware and adware on the
-          machine. Being an internet child, I instinctually started Googling
-          what could be causing my computer to be acting up. One question led to
-          a next, and before I knew it, I&apos;d gotten to know way to much
-          about computers. A bit of a weird origin story, I&apos;ll admit, but I
-          think it&apos;s also poetically relatable to software development.
+          grader, ended up with a ton of bloatware and adware. I started
+          Googling what could be causing my computer to be acting up, and one
+          question led to the next. Before I knew it, I&apos;d gotten to know
+          way to much about computers. A bit of a weird origin story, I&apos;ll
+          admit, but I think it&apos;s also poetically relatable to software
+          development.
         </p>
         <div className="text-[32px]">Music</div>
         <p className="pl-10 pb-10 text-[24px]">
