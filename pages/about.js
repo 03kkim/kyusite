@@ -2,18 +2,19 @@ import Header from "../components/Header";
 
 function About() {
   return (
-    <div className="bg h-screen">
+    <div className="bg">
       <Header />
       <main className="main">
-        <div className="text-[40px] text-center">About Me</div>
-        <div className="text-[24px] pb-5">
-          <p className="text-center">
-            Hi, I&apos;m Kyu! I&apos;m a web developer, music producer, and
-            student at UIUC majoring in CS + Music.
-            <br />
-            Feel free to contact me using the following links:
+        <div className="text-[28px] sm:text-[32px] md:text-[40px] text-center">
+          About Me
+        </div>
+        <div className="text-[20px] sm:text-[22px] md:text-[24px] text-center 2xl:px-44">
+          <p>
+            Hi, I'm Kyu. I'm a web developer, music producer, and student at
+            UIUC studying CS +Music. Here are some links for contact/info:
           </p>
         </div>
+        <br />
         <div className="grid gap-4 grid-cols-3 grid-rows-1 pb-5 justify-items-center">
           <div
             onClick={() => {
@@ -40,7 +41,7 @@ function About() {
             Github
           </a>
         </div>
-        <div className="text-[32px]">Computers</div>
+        <div className="pt-10 text-[32px]">Computers</div>
         <p className="pl-10 pb-10 text-[24px]">
           I enjoy creating frontend web apps using technologies like Next,
           React, and Tailwind for my personal projects for the flexibility and
