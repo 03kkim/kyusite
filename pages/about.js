@@ -10,8 +10,9 @@ function About() {
         </div>
         <div className="text-[20px] sm:text-[22px] md:text-[24px] text-center 2xl:px-44">
           <p>
-            Hi, I'm Kyu. I'm a web developer, music producer, and student at
-            UIUC studying CS +Music. Here are some links for contact/info:
+            Hi, I&apos;m Kyu. I&apos;m a web developer, music producer, and
+            student at UIUC studying CS +Music. Here are some links for
+            contact/info:
           </p>
         </div>
         <br />
