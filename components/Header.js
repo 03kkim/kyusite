@@ -3,14 +3,14 @@ import React from "react";
 import Link from "next/link";
 
 function Header() {
-  let initial = { x: 300, opacity: 0 };
-  let animate = { x: 0, opacity: 1 };
-  let exit = { x: 300, opacity: 0 };
-  let transition = {
-    type: "spring",
-    stiffness: 260,
-    damping: 20,
-  };
+  // let initial = { x: 300, opacity: 0 };
+  // let animate = { x: 0, opacity: 1 };
+  // let exit = { x: 300, opacity: 0 };
+  // let transition = {
+  //   type: "spring",
+  //   stiffness: 260,
+  //   damping: 20,
+  // };
   return (
     <div className="flow-root">
       <div className="md:float-left text-center">
