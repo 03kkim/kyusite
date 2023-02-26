@@ -5,7 +5,7 @@
 
 @layer components {
   .bg {
-    @apply font-open-sans font-light bg-gradient-to-t bg-cover from-background to-white px-4 pt-2 md:px-10 md:pt-5;
+    @apply font-open-sans font-light bg-gradient-to-t from-background to-white px-4 pt-2 md:px-10 md:pt-5 h-screen;
   }
 
   .bg-alt {
