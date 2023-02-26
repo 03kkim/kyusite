@@ -15,18 +15,14 @@ export default function Home() {
       <Header />
 
       <div className="flex flex-col items-center">
-        {/* <div className="image-container"> */}
         <Image
           className=" justify-content-center mt-10 mx-5 clip-circle 
                       w-[320px] h-[320px]
                       md:w-[360px] md:h-[360px]
                       xl:w-[400px] xl:h-[400px]"
           src={profilePic}
-          // width={565}
-          // height={360}
           alt="kyusite profile picture"
         />
-        {/* </div> */}
         <div
           className="w-[400px] sm:w-[500px] md:w-[750px] 
                     text-[24px] md:text-[32px] lg:text-[38px] 
