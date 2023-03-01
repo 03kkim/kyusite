@@ -4,7 +4,7 @@ import Image from "next/image";
 // import styles from "../styles/Home.module.css";
 
 import kyusiteThumb from "../resources/kyusite.png";
-import encapsulateThumb from "../resources/encapsulate.png";
+import microThumb from "../resources/micro.png";
 import polyrthmThumb from "../resources/polyrthm.png";
 import rustseagullThumb from "../resources/rustseagull.jpg";
 
@@ -22,8 +22,8 @@ export default function Dev() {
           <b>Please turn your phone to landscape to view this page</b>
         </div>
         <div className="text-[20px] sm:text-[22px] md:text-[24px] text-center 2xl:px-44">
-          Although my classes have required me to learn C++, Kotlin, and Rust,
-          I&apos;ve mostly stuck with using JS in my personal projects.
+          I&apos;ve learned C++, Kotlin, and Rust for classes, but my personal
+          favorite is JS/TS!
         </div>
         <div className="py-10 text-[32px] text-center devbreak:text-left">
           Works in Progress
@@ -32,26 +32,24 @@ export default function Dev() {
           <div className="pb-10 devbreak:p-0">
             <a
               target="_blank"
-              href="https://github.com/03kkim/spotify-capsule"
+              href="https://github.com/03kkim/micro"
               rel="noreferrer"
             >
               <Image
                 className="drop-shadow-lg hover:drop-shadow-2xl cursor-pointer transition duration-100"
-                src={encapsulateThumb}
+                src={microThumb}
                 width={565}
                 alt="encapsulate thumbnail"
                 style={{ border: "2px solid #999999", borderRadius: "2px" }}
               />
             </a>
             <div className="text-[24px] w-[565px]">
-              <b>03kkim/spotify-capsule</b> - A Spotify time capsule generator
-              I&apos;m making with Micah Casey-Fusco. Spotify actually released
-              something similar (albeit not as cool 😎) after we started on the
-              project!
+              <b>03kkim/micro</b> - A microrhythm practice tool. Similar to a
+              metronome but different in that the top number represents the
+              number of subdivisions in a constant beat, rather than the number
+              of beats.
               <br />
-              <i className="text-[18px]">
-                NextJS, NextAuth, MaterialUI, Spotify API
-              </i>
+              <i className="text-[18px]">Svelte, TailwindCSS, p5.js, ToneJS</i>
             </div>
           </div>
           <div>
@@ -73,7 +71,7 @@ export default function Dev() {
               Figma for mockups, and it definitely helped make it look neater
               than my usual apps.
               <br />
-              <i className="text-[18px]">NextJS, TailwindCSS, Framer Motion</i>
+              <i className="text-[18px]">NextJS, TailwindCSS</i>
             </div>
           </div>
         </div>
