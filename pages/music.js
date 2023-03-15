@@ -47,7 +47,7 @@ export default function Music() {
           I&apos;m able to enjoy making music together with others in a realtime
           improvised setting.
         </div>
-        <div className="pt-10 text-[32px]">@kvu.sic (Instagram)</div>
+        {/* <div className="pt-10 text-[32px]">@kvu.sic (Instagram)</div>
         <div className="pl-10 pb-10 text-[24px]">
           What started as an outlet to show my friends my random piano ideas and
           improvs ended up turning into a fulfilling way for me to start
@@ -57,7 +57,7 @@ export default function Music() {
             <InstagramEmbed url="https://www.instagram.com/p/Cg1_HWSl9hK/" />
             <InstagramEmbed url="https://www.instagram.com/p/CivHPEVsHxY/" />
           </div>
-        </div>
+        </div> */}
       </main>
     </div>
   );
