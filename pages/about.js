@@ -11,7 +11,7 @@ function About() {
         <div className="text-[20px] sm:text-[22px] md:text-[24px] text-center 2xl:px-44">
           <p>
             Hi, I&apos;m Kyu. I&apos;m a web developer, music producer, and
-            student at UIUC studying CS +Music. Here are some links for
+            student at UIUC studying CS + Music. Here are some links for
             contact/info:
           </p>
         </div>
@@ -44,12 +44,12 @@ function About() {
         </div>
         <div className="pt-10 text-[32px]">Computers</div>
         <p className="pl-10 pb-10 text-[24px]">
-          I enjoy creating frontend web apps using technologies like Next,
-          React, and Tailwind for my personal projects for the flexibility and
-          accessibility it offers compared to standalone programs, but I&apos;ve
-          also used Django, PHP and SQL to handle backend and DBs. At my
-          internship this spring, I get to work with large datasets and continue
-          building on my data skills!
+          The first major project I ever made back in high school used JQuery
+          and PHP, but I&pos;ve since moved onto technologies like ReactJS
+          TailwindCSS, and Node.js for my personal projects instead for the
+          simplicity and accessibility they offer. In school and in work,
+          I&apos;ve also had notable experience using C++, SQL, Typescript,
+          MaterialUI, and Kotlin.
           {/* <br /> */}
           {/* <br />
           Fun story: I received my first laptop in 4th grade, and being a 4th
@@ -62,13 +62,12 @@ function About() {
         </p>
         <div className="text-[32px]">Music</div>
         <p className="pl-10 pb-10 text-[24px]">
-          I first started playing music at 7, with classical piano. However, it
-          wasn&apos;t until I was 13, when I started playing jazz, that I
-          started making my own music. Entering college, I decided to give
-          electronic music production a shot in order to broaden my sonic
-          palette and to be able to record and release my own music. While it
-          was difficult to start as a beginner in music for the 3rd time,
-          it&apos;s been a rewarding experience.
+          I first started playing music at 7, with the classical piano. When I
+          was 13, I started playing jazz and started composing my own music
+          through improvisation. Entering college, I decided to start pursuing
+          electronic music production in order to be able to record and release
+          my own music. While it was difficult to start as a beginner for the
+          3rd time, it&apos;s been a rewarding experience.
         </p>
         {/* Make this a blog post or smth idk */}
         {/* <div className="text-[32px]">Computers and Music</div>
