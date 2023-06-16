@@ -45,7 +45,7 @@ function About() {
         <div className="pt-10 text-[32px]">Computers</div>
         <p className="pl-10 pb-10 text-[24px]">
           The first major project I ever made back in high school used JQuery
-          and PHP, but I&pos;ve since moved onto technologies like ReactJS
+          and PHP, but I&apos;ve since moved onto technologies like ReactJS
           TailwindCSS, and Node.js for my personal projects instead for the
           simplicity and accessibility they offer. In school and in work,
           I&apos;ve also had notable experience using C++, SQL, Typescript,
