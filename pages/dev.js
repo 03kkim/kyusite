@@ -29,33 +29,6 @@ export default function Dev() {
           Works in Progress
         </div>
         <div className="grid grid-rows-2 grid-cols-1 devbreak:grid-rows-1 devbreak:grid-cols-2 justify-items-center">
-          <div>
-            <a
-              target="_blank"
-              href="https://github.com/03kkim/spotify-capsule"
-              rel="noreferrer"
-            >
-              <Image
-                className="drop-shadow-lg hover:drop-shadow-2xl cursor-pointer transition duration-100"
-                src={kyusiteThumb}
-                width={565}
-                alt="kyusite thumbnail"
-                style={{ border: "2px solid #999999", borderRadius: "2px" }}
-              />
-            </a>
-            <div className="text-[24px] w-[565px]">
-              <b>03kkim/kyusite</b> - This website. I made it a goal to use
-              Figma for mockups, and it definitely helped make it look neater
-              than my usual apps.
-              <br />
-              <i className="text-[18px]">NextJS, TailwindCSS</i>
-            </div>
-          </div>
-        </div>
-        <div className="py-10 text-[32px] text-center devbreak:text-left">
-          2023
-        </div>
-        <div className="grid grid-rows-2 grid-cols-1 devbreak:grid-rows-1 devbreak:grid-cols-2 justify-items-center">
           <div className="pb-10 devbreak:p-0">
             <a
               target="_blank"
@@ -77,6 +50,28 @@ export default function Dev() {
               of beats.
               <br />
               <i className="text-[18px]">Svelte, TailwindCSS, p5.js, ToneJS</i>
+            </div>
+          </div>
+          <div>
+            <a
+              target="_blank"
+              href="https://github.com/03kkim/spotify-capsule"
+              rel="noreferrer"
+            >
+              <Image
+                className="drop-shadow-lg hover:drop-shadow-2xl cursor-pointer transition duration-100"
+                src={kyusiteThumb}
+                width={565}
+                alt="kyusite thumbnail"
+                style={{ border: "2px solid #999999", borderRadius: "2px" }}
+              />
+            </a>
+            <div className="text-[24px] w-[565px]">
+              <b>03kkim/kyusite</b> - This website. I made it a goal to use
+              Figma for mockups, and it definitely helped make it look neater
+              than my usual apps.
+              <br />
+              <i className="text-[18px]">NextJS, TailwindCSS</i>
             </div>
           </div>
         </div>
