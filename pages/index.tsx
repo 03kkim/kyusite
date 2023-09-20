@@ -28,9 +28,8 @@ export default function Home() {
                     text-[24px] md:text-[32px] lg:text-[38px] 
                     text-center"
         >
-          Hi, I’m Kyu! I’m a web developer, music producer, and student at UIUC
-          majoring in CS + Music. Feel free to check out my work using the links
-          above!
+          Hi, I’m Kyu! I’m a software engineer, music producer, and student at UIUC majoring in CS + Music. Feel free to
+          check out my work using the links above!
         </div>
       </div>
     </div>
