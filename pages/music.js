@@ -27,9 +27,9 @@ export default function Music() {
         <div className="pt-10 text-[32px]">HIDEOUT</div>
         <div className="pl-10 pb-10 text-[24px]">
           HIDEOUT is a student music group at UIUC focused on pushing the boundaries of hip-hop as far as our ears can
-          take us. As the secretary, I organize our weekly admin meetings and help plan social events, 24-hour lock-ins,
-          album releases, and performances! I also produce instrumentals for our songs and provide piano tracks for
-          other producers. Check out our recent projects:
+          take us. As the secretary, I organized our weekly admin meetings and help plan social events, 24-hour
+          lock-ins, album releases, and performances! I also produce instrumentals for our songs and provide piano
+          tracks for other producers. Check out our recent projects:
           <div className="grid grid-cols-2 place-items-center pt-5">
             <iframe
               className="h-[380px] w-full px-4"
