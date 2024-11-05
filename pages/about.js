@@ -13,7 +13,7 @@ function About() {
           </p>
         </div>
         <br />
-        <div className="grid gap-4 grid-cols-3 grid-rows-1 pb-5 justify-items-center">
+        <div className="grid gap-4 grid-cols-3 grid-rows-1 pb-5 pt-10 justify-items-center">
           <div
             onClick={() => {
               navigator.clipboard.writeText("03kkim@gmail.com");
@@ -29,28 +29,14 @@ function About() {
             Github
           </a>
         </div>
-        <div className="pt-10 text-[32px]">Computers</div>
+        <div className="pt-10 text-[32px]">A bit of background...</div>
         <p className="pl-10 pb-10 text-[24px]">
-          The first major project I ever made back in high school used JQuery and PHP, but I&apos;ve since moved onto
-          technologies like ReactJS TailwindCSS, and Node.js for my personal projects instead for the simplicity and
-          accessibility they offer. In school and in work, I&apos;ve also had notable experience using C++, SQL,
-          Typescript, MaterialUI, and Kotlin.
-          {/* <br /> */}
-          {/* <br />
-          Fun story: I received my first laptop in 4th grade, and being a 4th
-          grader, ended up with a ton of bloatware and adware. I started
-          Googling what could be causing my computer to be acting up, and one
-          question led to the next. Before I knew it, I&apos;d gotten to know
-          way to much about computers. A bit of a weird origin story, I&apos;ll
-          admit, but I think it&apos;s also poetically relatable to software
-          development. */}
-        </p>
-        <div className="text-[32px]">Music</div>
-        <p className="pl-10 pb-10 text-[24px]">
-          I first started playing music at 7, with the classical piano. When I was 13, I started playing jazz and
-          started composing my own music through improvisation. Entering college, I decided to start pursuing electronic
-          music production in order to be able to record and release my own music. While it was difficult to start as a
-          beginner for the 3rd time, it&apos;s been a rewarding experience.
+          I know this is cliche, but there&apos;s something just so rewarding about trying new things. I first started
+          making music when I was 7 with the classical piano. When I was 13, I started playing jazz and composing my own
+          music. Entering college at 18, I started producing electronic music, and while it was a challenge being a
+          beginner again it&apos;s definitely been worth the journey. Given that I only started making electronic after
+          I chose to study CS + Music in college, I&apos;m very fortunate that my interests ended up aligning. Whatever
+          I end up doing, just know I&apos;m excited to continue learning and creating!
         </p>
         {/* Make this a blog post or smth idk */}
         {/* <div className="text-[32px]">Computers and Music</div>
