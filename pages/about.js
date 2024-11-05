@@ -22,12 +22,7 @@ function About() {
           >
             Email
           </div>
-          <a
-            className="text-[24px]"
-            target="_blank"
-            href="https://www.linkedin.com/in/kyu-hong-kim-8b5991218/"
-            rel="noreferrer"
-          >
+          <a className="text-[24px]" target="_blank" href="https://www.linkedin.com/in/kyu-hong-kim/" rel="noreferrer">
             LinkedIn
           </a>
           <a className="text-[24px]" target="_blank" href="https://github.com/03kkim" rel="noreferrer">

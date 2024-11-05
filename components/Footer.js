@@ -9,11 +9,7 @@ function Footer() {
       >
         Email
       </div>
-      <a
-        className="text-lg"
-        target="_blank"
-        href="https://www.linkedin.com/in/kyu-hong-kim-8b5991218/" rel="noreferrer"
-      >
+      <a className="text-lg" target="_blank" href="https://www.linkedin.com/in/kyu-hong-kim/" rel="noreferrer">
         LinkedIn
       </a>
       <a className="text-lg" target="_blank" href="https://github.com/03kkim" rel="noreferrer">
