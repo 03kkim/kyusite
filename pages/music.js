@@ -33,14 +33,14 @@ export default function Music() {
           <div className="grid grid-cols-2 place-items-center pt-5">
             <iframe
               className="h-[380px] w-full px-4"
-              src="https://open.spotify.com/embed/album/2Fqi6plmJWEhKatMju1XSw?utm_source=generator"
+              src="https://open.spotify.com/embed/album/0lL6i3CFHkugqNAcR36zr3?utm_source=generator"
               allowFullScreen=""
               allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
               loading="lazy"
             ></iframe>
             <iframe
               className="h-[380px] w-full px-4"
-              src="https://open.spotify.com/embed/album/16uu6YMO6omKyXSdTheZKy?utm_source=generator"
+              src="https://open.spotify.com/embed/album/2Fqi6plmJWEhKatMju1XSw?utm_source=generator"
               allowFullScreen=""
               allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
               loading="lazy"
