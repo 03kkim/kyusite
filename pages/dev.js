@@ -20,12 +20,12 @@ export default function Dev() {
           <b>Please turn your phone to landscape to view this page</b>
         </div>
         <div className="text-[20px] sm:text-[22px] md:text-[24px] text-center 2xl:px-44">
-          I&apos;ve learned C++, Kotlin, and Rust for classes, but my personal favorite is JS/TS!
+          Check out my software projects!
         </div>
         <div className="py-10 text-[32px] text-center">Works in Progress</div>
         <div className="grid grid-rows-1 grid-cols-1 justify-items-center">
           <div>
-            <a target="_blank" href="https://github.com/03kkim/spotify-capsule" rel="noreferrer">
+            <a target="_blank" href="https://www.kyuhong.kim/dev" rel="noreferrer">
               <Image
                 className="drop-shadow-lg hover:drop-shadow-2xl cursor-pointer transition duration-100"
                 src={kyusiteThumb}
@@ -35,8 +35,8 @@ export default function Dev() {
               />
             </a>
             <div className="text-[24px] w-[565px]">
-              <b>03kkim/kyusite</b> - This website. I made it a goal to use Figma for mockups, and it definitely helped
-              make it look neater than my usual apps.
+              <b>kyusite</b> - This website. I made it a goal to use Figma for mockups, and it definitely helped make it
+              look neater than my usual apps.
               <br />
               <i className="text-[18px]">NextJS, TailwindCSS</i>
             </div>
@@ -55,8 +55,8 @@ export default function Dev() {
               />
             </a>
             <div className="text-[24px] w-[565px]">
-              <b>03kkim/micro</b> - A microrhythm practice tool. Similar to a metronome but different in that the top
-              number represents the number of subdivisions in a constant beat, rather than the number of beats.
+              <b>micro</b> - A microrhythm practice tool. Similar to a metronome but different in that the top number
+              represents the number of subdivisions in a constant beat, rather than the number of beats.
               <br />
               <i className="text-[18px]">Svelte, TailwindCSS, p5.js, ToneJS</i>
             </div>
@@ -75,9 +75,9 @@ export default function Dev() {
               />
             </a>
             <div className="text-[24px] w-[565px]">
-              <b>03kkim/polyrthm</b> - A polyrhythm generator. Polyrhythms are two or more rhythms being played at the
-              same time with different frequencies. While they sound cool, they&apos;re notoriously difficult to play,
-              so I made this to help myself (and others) practice! <br />
+              <b>polyrthm</b> - A polyrhythm generator. Polyrhythms are two or more rhythms being played at the same
+              time with different frequencies. While they sound cool, they&apos;re notoriously difficult to play, so I
+              made this to help myself (and others) practice! <br />
               <i className="text-[18px]">ReactJS, BulmaCSS, Tone.js</i>
             </div>
           </div>
@@ -94,8 +94,8 @@ export default function Dev() {
               />
             </a>
             <div className="text-[24px] w-[565px]">
-              <b>03kkim/rustseagull </b> - A Conway&apos;s Game of Life implementation in Rust, which also generates
-              sounds based on the board state! A collaboration project with Lily Zhang and Abena Laast.
+              <b>rustseagull </b> - A Conway&apos;s Game of Life implementation in Rust, which also generates sounds
+              based on the board state! A collaboration project with Lily Zhang and Abena Laast.
               <br />
               <i className="text-[18px]">Winit, Pixels, Rodio </i>
             </div>
