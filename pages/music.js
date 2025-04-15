@@ -1,23 +1,31 @@
 import Header from "../components/Header";
 import { InstagramEmbed } from "react-social-media-embed";
+import PhoneWarning from "../components/PhoneWarning";
 
 export default function Music() {
   return (
     <div className="bg h-full">
       <Header />
       <main className="main">
-        <div className="text-[40px] text-center ">Music Projects</div>
-        <div className="text-[28px] text-red-600 sm:h-0 visible sm:invisible text-center">
-          <b>Please turn your phone to landscape to view this page</b>
-        </div>
+        <div className="text-[40px] text-center ">Music</div>
+        <PhoneWarning />
         <div className="text-[24px] text-center 2xl:px-44">Take a listen!</div>
-        <div className="pt-10 text-[32px]">Apoqhix</div>
+        <div className="pt-10 text-[32px]">knomada</div>
         <div className="pl-10 pb-10 text-[24px]">
-          Experimental Electronic Rap - A joint project with EL!JAH
-          <div className="grid grid-cols-1 place-items-center pt-5">
+          My solo electronic project - I produce, mix, and master all of my own music. I also upload videos on socials
+          for fun! Check out my latest release with Nayu, as well as my winning submission for Kilohearts&apos; Phase
+          Plant Fifth Year Anniversary Giveaway!
+          <div className="grid grid-cols-2 place-items-center pt-5">
             <iframe
-              className="h-[380px] w-full px-4"
-              src="https://open.spotify.com/embed/album/6RN46jakjtGTyMTMnrS49U?utm_source=generator&theme=0"
+              className="h-[352px] w-full px-4"
+              src="https://open.spotify.com/embed/track/5LvSZl3MRaAPXuvO1N0FOh?utm_source=generator"
+              allowFullScreen=""
+              allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+              loading="lazy"
+            ></iframe>
+            <iframe
+              className="h-[352px] w-full px-4"
+              src="https://kilohearts.com/blog/phase_plant_fifth_anniversary_giveaway_winners#:~:text=WINNER%3A%20Knomada%20(%40itsknomada%20on%20X)%20also%20tickled%20us%20with%20their%20entry%2C%20which%20not%20only%20showcased%20Phase%20Plant%20but%20also%20made%20us%20hungry%20for%20pizza."
               allowFullScreen=""
               allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
               loading="lazy"
@@ -32,14 +40,14 @@ export default function Music() {
           tracks for other producers. Check out our recent projects:
           <div className="grid grid-cols-2 place-items-center pt-5">
             <iframe
-              className="h-[380px] w-full px-4"
+              className="h-[352px] w-full px-4"
               src="https://open.spotify.com/embed/album/0lL6i3CFHkugqNAcR36zr3?utm_source=generator"
               allowFullScreen=""
               allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
               loading="lazy"
             ></iframe>
             <iframe
-              className="h-[380px] w-full px-4"
+              className="h-[352px] w-full px-4"
               src="https://open.spotify.com/embed/album/2Fqi6plmJWEhKatMju1XSw?utm_source=generator"
               allowFullScreen=""
               allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
@@ -47,24 +55,19 @@ export default function Music() {
             ></iframe>
           </div>
         </div>
-
-        {/* <div className="pt-10 text-[32px]">Improvisers Exchange</div>
+        <div className="pt-10 text-[32px]">Apoqhix</div>
         <div className="pl-10 pb-10 text-[24px]">
-          The one drawback with music production is the lack of live interaction between the musician and audience. As
-          part of Improvisers Exchange I&apos;m able to enjoy making music together with others in a realtime improvised
-          setting.
-        </div> */}
-        {/* <div className="pt-10 text-[32px]">@kvu.sic (Instagram)</div>
-        <div className="pl-10 pb-10 text-[24px]">
-          What started as an outlet to show my friends my random piano ideas and
-          improvs ended up turning into a fulfilling way for me to start
-          releasing more serious projects. Here are some of my favorites!
-          <div className="grid devbreak:grid-cols-3 cols-1 place-items-center pt-5">
-            <InstagramEmbed url="https://www.instagram.com/p/ChST0VKFMZe/" />
-            <InstagramEmbed url="https://www.instagram.com/p/Cg1_HWSl9hK/" />
-            <InstagramEmbed url="https://www.instagram.com/p/CivHPEVsHxY/" />
+          Experimental Electronic Rap - A joint project with EL!JAH
+          <div className="grid grid-cols-1 place-items-center pt-5">
+            <iframe
+              className="h-[380px] w-full px-4"
+              src="https://open.spotify.com/embed/album/6RN46jakjtGTyMTMnrS49U?utm_source=generator&theme=0"
+              allowFullScreen=""
+              allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+              loading="lazy"
+            ></iframe>
           </div>
-        </div> */}
+        </div>
       </main>
     </div>
   );
