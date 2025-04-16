@@ -1,13 +1,3 @@
-// import Head from "next/head";
-import Image from "next/image";
-// import { Inter } from "@next/font/google";
-// import styles from "../styles/Home.module.css";
-
-import kyusiteThumb from "../resources/kyusite.png";
-import microThumb from "../resources/micro.png";
-import polyrthmThumb from "../resources/polyrthm.png";
-import rustseagullThumb from "../resources/rustseagull.jpg";
-
 import Header from "../components/Header";
 import DevProject from "../components/DevProject";
 

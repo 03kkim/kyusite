@@ -10,7 +10,7 @@ export default function Music() {
         <div className="text-[40px] text-center ">Music</div>
         <PhoneWarning />
         <div className="text-[24px] text-center 2xl:px-44">Take a listen!</div>
-        <div className="pt-10 text-[32px]">knomada</div>
+        <div className="pt-10 text-[32px]">Knomada</div>
         <div className="pl-10 pb-10 text-[24px]">
           My solo electronic project - I produce, mix, and master all of my own music. I also upload videos on socials
           for fun! Check out my latest release with Nayu, as well as my winning submission for Kilohearts&apos; Phase
@@ -34,10 +34,10 @@ export default function Music() {
         </div>
         <div className="pt-10 text-[32px]">HIDEOUT</div>
         <div className="pl-10 pb-10 text-[24px]">
-          HIDEOUT is a student music group at UIUC focused on pushing the boundaries of hip-hop as far as our ears can
-          take us. As the secretary, I organized our weekly admin meetings and help plan social events, 24-hour
-          lock-ins, album releases, and performances! I also produce instrumentals for our songs and provide piano
-          tracks for other producers. Check out our recent projects:
+          HIDEOUT is a music student organization at UIUC focused on building community and releasing a diverse range of
+          collaborative hip hop. As secretary, I organized weekly 24-hour sleepaway events, album releases, and
+          performances! I&apos;ve also produced instrumentals for our songs and provided piano tracks for other
+          producers. Check out our most recent albums:
           <div className="grid grid-cols-2 place-items-center pt-5">
             <iframe
               className="h-[352px] w-full px-4"

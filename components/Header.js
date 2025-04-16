@@ -22,9 +22,7 @@ function Header() {
         > */}
         <Link href="/">
           <h1 className=" text-[32px] sm:text-[64px] hover:scale-95 cursor-pointer transition transform duration-200 ease-in-out text-shadow">
-            <div className="transition hover:text-neutral-500 transform duration-200 ease-in-out">
-              Kyu Hong Kim
-            </div>
+            <div className="transition hover:text-neutral-500 transform duration-200 ease-in-out">Kyu Hong Kim</div>
           </h1>
         </Link>
         {/* </motion.div> */}
@@ -32,23 +30,17 @@ function Header() {
       <div className="space-x-10 text-[26px] sm:text-[40px] md:float-right text-center">
         <Link href="/dev">
           <h2 className="inline-block hover:scale-95 cursor-pointer transition transform duration-100 ease-in-out text-shadow">
-            <div className="transition hover:text-neutral-500 transform duration-100 ease-in-out">
-              Dev
-            </div>
+            <div className="transition hover:text-neutral-500 transform duration-100 ease-in-out">Dev</div>
           </h2>
         </Link>
         <Link href="/music">
           <h2 className="inline-block hover:scale-95 cursor-pointer transition transform duration-100 ease-in-out text-shadow">
-            <div className="transition hover:text-neutral-500 transform duration-100 ease-in-out">
-              Music
-            </div>
+            <div className="transition hover:text-neutral-500 transform duration-100 ease-in-out">Music</div>
           </h2>
         </Link>
-        <Link href="/about">
+        <Link href="/contact">
           <h2 className="inline-block hover:scale-95 cursor-pointer transition transform duration-100 ease-in-out text-shadow">
-            <div className="transition hover:text-neutral-500 transform duration-100 ease-in-out">
-              About
-            </div>
+            <div className="transition hover:text-neutral-500 transform duration-100 ease-in-out">Contact</div>
           </h2>
         </Link>
       </div>

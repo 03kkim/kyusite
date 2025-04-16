@@ -1,15 +1,25 @@
 import kyusiteThumb from "../resources/kyusite.png";
 import microThumb from "../resources/micro.png";
 import polyrthmThumb from "../resources/polyrthm.png";
-import rustseagullThumb from "../resources/rustseagull.jpg";
+import rustseagullThumb from "../resources/rustseagull.png";
+import modalShiftThumb from "../resources/modalshift.png";
 
 export const projectData = [
   {
-    title: "kyusite",
+    title: "modalshift",
     heading: "Works in Progress",
+    link: "https://github.com/03kkim/ModalShift",
+    description:
+      "An audio plugin that uses parallel bandpass filters and frequency shifters in order to achieve a unique pitch-shifting effect.",
+    technologies: "C++, JUCE",
+    thumbnail: modalShiftThumb,
+  },
+  {
+    title: "kyusite",
+    heading: null,
     link: "https://www.kyuhong.kim/dev",
     description:
-      "This website. I made it a goal to use Figma for mockups, and it definitely helped make it look neater than my usual apps.",
+      "This website. I made it a goal to use Figma for mockups and to separate data and logic for ease of maintenance.",
     technologies: "Figma, NextJS, TailwindCSS",
     thumbnail: kyusiteThumb,
   },
