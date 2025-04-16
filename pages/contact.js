@@ -15,14 +15,24 @@ function Contact() {
             onClick={() => {
               navigator.clipboard.writeText("03kkim@gmail.com");
             }}
-            className="text-[24px] cursor-pointer"
+            className="text-[24px] cursor-pointer hover:scale-95 transition hover:text-neutral-500 transform duration-100 ease-in-out text-shadow"
           >
             Email (Click to Copy)
           </div>
-          <a className="text-[24px]" target="_blank" href="https://www.linkedin.com/in/kyu-hong-kim/" rel="noreferrer">
+          <a
+            className="text-[24px] cursor-pointer hover:scale-95 transition hover:text-neutral-500 transform duration-100 ease-in-out text-shadow"
+            target="_blank"
+            href="https://www.linkedin.com/in/kyu-hong-kim/"
+            rel="noreferrer"
+          >
             LinkedIn
           </a>
-          <a className="text-[24px]" target="_blank" href="https://github.com/03kkim" rel="noreferrer">
+          <a
+            className="text-[24px] cursor-pointer hover:scale-95 transition hover:text-neutral-500 transform duration-100 ease-in-out text-shadow"
+            target="_blank"
+            href="https://github.com/03kkim"
+            rel="noreferrer"
+          >
             Github
           </a>
         </div>
