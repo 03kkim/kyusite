@@ -33,7 +33,7 @@ export const projectData = [
     thumbnail: microThumb,
   },
   {
-    title: "polyrhythm",
+    title: "polyrthm",
     heading: "2022",
     link: "https://github.com/03kkim/polyrthm",
     description:
