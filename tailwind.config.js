@@ -2,22 +2,16 @@
 
 const defaultTheme = require("tailwindcss/defaultTheme");
 
-const newScreens = Object.entries(defaultTheme.screens).reduce(
-  (breakpoints, [label, value]) => {
-    if (label == "lg") {
-      breakpoints["devbreak"] = "1680px";
-    }
-    breakpoints[label] = value;
-    return breakpoints;
-  },
-  {}
-);
+const newScreens = Object.entries(defaultTheme.screens).reduce((breakpoints, [label, value]) => {
+  if (label == "lg") {
+    breakpoints["devbreak"] = "1680px";
+  }
+  breakpoints[label] = value;
+  return breakpoints;
+}, {});
 
 module.exports = {
-  content: [
-    "./pages/**/*.{js,ts,jsx,tsx}",
-    "./components/**/*.{js,ts,jsx,tsx}",
-  ],
+  content: ["./pages/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}"],
   theme: {
     screens: newScreens,
     fontFamily: {
