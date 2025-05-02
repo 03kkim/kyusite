@@ -5,7 +5,7 @@ import styles from "../styles/Home.module.css";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 
-import profilePic from "../resources/pfp.png";
+import profilePic from "../resources/pfp.jpg";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -16,6 +16,7 @@ export default function Home() {
 
       <div className="flex flex-col items-center">
         <Image
+          style={{ objectFit: "cover", objectPosition: "center" }}
           className=" justify-content-center mt-10 mx-5 clip-circle 
                       w-[320px] h-[320px]
                       md:w-[360px] md:h-[360px]
