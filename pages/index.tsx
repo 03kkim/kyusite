@@ -29,8 +29,8 @@ export default function Home() {
                     text-[24px] md:text-[32px] lg:text-[38px] 
                     text-center"
         >
-          Hi, I’m Kyu! I’m a software engineer and music producer studying CS + Music at the University of Illinois
-          Urbana-Champaign.
+          Hi, I’m Kyu! I’m a software engineer and music producer with a B.S. in CS + Music from the University of
+          Illinois Urbana-Champaign.
         </div>
       </div>
     </div>
